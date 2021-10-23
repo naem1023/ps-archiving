@@ -10,7 +10,7 @@ def solution(distance, rocks, n):
         mid = int((left + right) / 2)
         minDistance = float('inf')
 
-        # 현재 어느 돌데 있는지 저장
+        # 현재 어느 돌에 있는지 저장
         current = 0
         
         for rock in rocks:
