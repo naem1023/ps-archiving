@@ -1,5 +1,5 @@
 import sys
-N, K = map(int, sys.stdin.readline())
+N, K = map(int, sys.stdin.readline().split())
 
 p = 1000000007
 
